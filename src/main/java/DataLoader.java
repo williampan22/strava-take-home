@@ -5,8 +5,6 @@ import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 /**
@@ -31,27 +29,6 @@ public class DataLoader {
         }
 
         return JsonParser.parseCollectionData(jsonContent.toString());
-    }
-
-    /**
-     * Fetch and parse data from the API using days ago
-     *
-     * @param endpoint API endpoint URL
-     * @param days Number of days ago to query for
-     * @return List of LogInfoDTO objects
-     * @throws IOException If the API request fails
-     * @throws InterruptedException If the HTTP request is interrupted
-     */
-    public static List<LogInfoDTO> getDataFromServer(String endpoint, int days)
-            throws IOException, InterruptedException {
-        // Calculate date for API query
-        LocalDate targetDate = LocalDate.now().minusDays(days);
-        String year = targetDate.format(DateTimeFormatter.ofPattern("yyyy"));
-        String month = targetDate.format(DateTimeFormatter.ofPattern("MM"));
-        String day = targetDate.format(DateTimeFormatter.ofPattern("dd"));
-
-        // Call the method with explicit date parameters
-        return getDataFromServerByDate(endpoint, year, month, day);
     }
 
     /**
