@@ -82,7 +82,7 @@ https://phoenixnap.com/kb/install-maven-windows
    ```
 
    **For Windows**:
-   - Download the Maven zip file from [Maven's official site](https://maven.apache.org/download.cgi)
+   - Download the Maven zip file from https://maven.apache.org/download.cgi
    - Extract it to a directory (e.g., `C:\Program Files\Maven`)
    - Add Maven's bin directory to your PATH environment variable
    - Verify installation by running `mvn -version` in Command Prompt
