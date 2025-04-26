@@ -223,3 +223,9 @@ Shards: 1
 Balance Ratio: 12
 Recommended shard count is 1
 ```
+
+## Example From My Computer
+
+![image](https://github.com/user-attachments/assets/e0995d43-6567-408d-9550-2604a96b456f)
+![image](https://github.com/user-attachments/assets/f69a26ab-c9c6-4063-a63b-1f76ebd3cd8f)
+![image](https://github.com/user-attachments/assets/e88b2a98-cb0e-417e-8d15-3cd7bb6f604a)
