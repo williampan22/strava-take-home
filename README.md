@@ -70,7 +70,7 @@ https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
 https://phoenixnap.com/kb/install-maven-windows
 
    **For macOS**:
-   ```bash
+   ```
    # Install Homebrew if not already installed
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
    
@@ -86,11 +86,11 @@ https://phoenixnap.com/kb/install-maven-windows
    - Extract it to a directory (e.g., `C:\Program Files\Maven`)
    - Add Maven's bin directory to your PATH environment variable
    - Verify installation by running `mvn -version` in Command Prompt
-   ```
+
 ## Building and Running the Application
 
 1. **Compile the project**:
-   ```bash
+   ```
    mvn compile
    ```
 
