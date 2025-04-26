@@ -15,7 +15,7 @@ This tool analyzes log storage collections and provides:
 
 ## Component Descriptions
 
-- **LogStorageAnalyzerApplication**: Main class that coordinates the application flow
+- **LogStorageAnalyzerApplication**: Main class - calls other methods in other classes to read arguments passed in, read/parse data (json file/api), validate, compute calcuations, and print results
 - **CommandLineOptions**: Stores user-specified options like source, file path, API endpoint, and date
 - **CommandLineParser**: Validates and processes command line arguments (uses a bit of regex)
 - **DataLoader**: Handles loading data from files or API endpoints
