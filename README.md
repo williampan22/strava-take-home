@@ -50,7 +50,7 @@ Here is a look at the dependencies in the pom.xml file from maven.
 
 ## Resources Used 
 
-How Do I execute a file using maven? https://stackoverflow.com/questions/2472376/how-do-i-execute-a-program-using-maven 
+How Do I execute a file using maven? [https://stackoverflow.com/questions/2472376/how-do-i-execute-a-program-using-maven ](https://www.baeldung.com/maven-java-main-method)
 
 https://www.freecodecamp.org/news/regex-for-date-formats-what-is-the-regular-expression-for-matching-dates/
 
